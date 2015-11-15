@@ -13,6 +13,7 @@
 		4C607B671BF8CF12009E4D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C607B651BF8CF12009E4D81 /* Main.storyboard */; };
 		4C607B691BF8CF12009E4D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C607B681BF8CF12009E4D81 /* Assets.xcassets */; };
 		4C607B771BF8CF12009E4D81 /* nexus_client_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C607B761BF8CF12009E4D81 /* nexus_client_iOSTests.m */; };
+		4C607B831BF8D247009E4D81 /* JasperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C607B821BF8D247009E4D81 /* JasperTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		4C607B721BF8CF12009E4D81 /* nexus-client-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nexus-client-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C607B761BF8CF12009E4D81 /* nexus_client_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nexus_client_iOSTests.m; sourceTree = "<group>"; };
 		4C607B781BF8CF12009E4D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C607B811BF8D247009E4D81 /* JasperTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JasperTableViewController.h; sourceTree = "<group>"; };
+		4C607B821BF8D247009E4D81 /* JasperTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JasperTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				4C607B621BF8CF12009E4D81 /* ViewController.h */,
 				4C607B631BF8CF12009E4D81 /* ViewController.m */,
 				4C607B651BF8CF12009E4D81 /* Main.storyboard */,
+				4C607B811BF8D247009E4D81 /* JasperTableViewController.h */,
+				4C607B821BF8D247009E4D81 /* JasperTableViewController.m */,
 				4C607B681BF8CF12009E4D81 /* Assets.xcassets */,
 				4C607B6D1BF8CF12009E4D81 /* Info.plist */,
 				4C607B5C1BF8CF12009E4D81 /* Supporting Files */,
@@ -210,6 +215,7 @@
 				4C607B641BF8CF12009E4D81 /* ViewController.m in Sources */,
 				4C607B611BF8CF12009E4D81 /* AppDelegate.m in Sources */,
 				4C607B5E1BF8CF12009E4D81 /* main.m in Sources */,
+				4C607B831BF8D247009E4D81 /* JasperTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
