@@ -12,6 +12,7 @@
 
 // MARK: Properties
 @property (weak, nonatomic) IBOutlet UISwitch *onlineSwitch;
+@property (weak, nonatomic) IBOutlet UILabel *onlineLabel;
 
 
 @end
@@ -47,9 +48,10 @@
     if (sender.on) {
         NSLog(@"Switch is on");
         tmp = [[NSDictionary alloc] initWithObjectsAndKeys: @YES, @"status", nil];
+        self.onlineLabel.text = @"Online";
     } else {
         tmp = [[NSDictionary alloc] initWithObjectsAndKeys: @NO, @"status", nil];
-        
+        self.onlineLabel.text = @"Offline";
     }
     NSLog(@"Dict: %@", [tmp description]);
     [self makeRestPostAPICall: jasperUrl PostDict:tmp];
@@ -61,7 +63,7 @@
     NSURLResponse *resp = nil;
     NSError *error = nil;
     NSData *response = [NSURLConnection sendSynchronousRequest: Request returningResponse: &resp error: &error];
-    NSDictionary *responseDict = [NSJSONSerialization JSONObjectWithData:response options:nil error:nil];
+    NSDictionary *responseDict = [NSJSONSerialization JSONObjectWithData:response options:0 error:nil];
     return responseDict;
 }
 
